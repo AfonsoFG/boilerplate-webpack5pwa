@@ -1,4 +1,4 @@
-# PWA Webpack Boilerplate for fast project kickstart
+# 😎 PWA Webpack5 Boilerplate
 
 Fast kickstart a simple ECMAScript 2015 PWA app project without any framework.
 
