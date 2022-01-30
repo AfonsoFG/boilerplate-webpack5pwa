@@ -1,0 +1,16 @@
+body {
+    text-align: center;
+    background: $app-background-color;
+    font-size: $font-size;
+    font-family: $font-family;
+    color: $font-color;
+    margin-top: 60px
+}
+
+h1, p {
+    color: $font-color
+}
+
+h1 {
+    margin: 20px 0
+}

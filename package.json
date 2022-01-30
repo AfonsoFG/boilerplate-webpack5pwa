@@ -1,0 +1,53 @@
+{
+    "name": "boilerplate-webpack5pwa",
+    "version": "1.0.0",
+    "description": "Boilerplate webpack5 pwa app description here",
+    "main": "index.js",
+    "author": "Afonso Gomes",
+    "license": "MIT",
+    "scripts": {
+        "dev": "cross-env NODE_ENV=development webpack serve --config configs/webpack.dev.js",
+        "build": "cross-env NODE_ENV=production webpack --config configs/webpack.prod.js",
+        "serve": "cross-env NODE_ENV=production webpack --config configs/webpack.prod.js && http-server ./build -c-1",
+        "lint": "eslint 'src/**/*.js' || true",
+        "prettify": "prettier --write 'src/**/*.js'"
+    },
+    "keywords": [
+        "Boilerplate",
+        "Webpack5",
+        "Babel6",
+        "Eslint8"
+    ],
+    "devDependencies": {
+        "@babel/core": "^7.16.12",
+        "@babel/plugin-proposal-class-properties": "^7.16.7",
+        "@babel/preset-env": "^7.16.11",
+        "babel-loader": "^8.2.3",
+        "clean-webpack-plugin": "^4.0.0",
+        "copy-webpack-plugin": "^10.2.2",
+        "cross-env": "^7.0.3",
+        "css-loader": "^6.5.1",
+        "css-minimizer-webpack-plugin": "^3.4.1",
+        "eslint": "^8.8.0",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-import-resolver-webpack": "^0.13.2",
+        "eslint-plugin-prettier": "^4.0.0",
+        "html-webpack-plugin": "^5.5.0",
+        "mini-css-extract-plugin": "^2.5.3",
+        "sass": "^1.49.0",
+        "postcss-loader": "^6.2.1",
+        "postcss-preset-env": "^7.2.3",
+        "prettier": "^2.5.1",
+        "sass-loader": "^12.4.0",
+        "style-loader": "^3.3.1",
+        "webpack": "^5.67.0",
+        "webpack-cli": "^4.9.2",
+        "webpack-dev-server": "^4.7.3",
+        "webpack-merge": "^5.8.0",
+        "http-server": "^14.1.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:AfonsoFG/boilerplate-webpack5pwa.git"
+    }
+}
