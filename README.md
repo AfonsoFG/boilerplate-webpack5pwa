@@ -1,20 +1,32 @@
 # PWA Webpack Boilerplate for fast project kickstart
 
-Kickstart fast a simples ECMAScript 2015 project without any framework
+Fast kickstart a simple ECMAScript 2015 PWA app project without any framework.
 
-## Includes
+## What is included
 - Webpack 5
 - Babel 6
 - Eslint 8
 - SASS
 - Prettier
+- PWA service worker and assets
 
 ## PWA ready
 Already has everything needed to be a PWA
 
 ## How to use
 ```
- $ npm clone ....
- $ npm install
- $ npm run dev
+ $ npm clone git@github.com:AfonsoFG/boilerplate-webpack5pwa.git
 ```
+
+```
+ $ npm install
+```
+
+### Chose a npm run option
+```
+ $ npm run dev
+ $ npm run build
+ $ npm run serve
+ $ npm run lint
+ $ npm run prettify
+ ```
