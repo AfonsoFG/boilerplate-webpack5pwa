@@ -15,7 +15,7 @@ module.exports = merge(common, {
     devtool: false,
     output: {
         path: paths.build,
-        publicPath: '/',
+        publicPath: '/boilerplate-webpack5pwa',
         filename: 'js/[name]-[contenthash].bundle.js',
     },
     module: {
