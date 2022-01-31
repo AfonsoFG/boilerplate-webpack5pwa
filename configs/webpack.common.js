@@ -25,21 +25,13 @@ module.exports = {
             patterns: [
                 {
                     from: paths.public,
-                    to: '',
+                    to: paths.build,
                     globOptions: {
                         ignore: ['*.DS_Store'],
                     },
                     noErrorOnMissing: true,
-                },
-                {
-                    from: paths.src + '/img',
-                    to: paths.build + '/img',
-                    globOptions: {
-                        ignore: ['*.DS_Store'],
-                    },
-                    noErrorOnMissing: false,
-                },
-            ],
+                }
+            ]
         }),
 
         new HtmlWebpackPlugin({

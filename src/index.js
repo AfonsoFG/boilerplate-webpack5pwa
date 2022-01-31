@@ -17,7 +17,7 @@ import '@src/styles/index.scss'
 import { exampleHeading, exampleParagraph } from '@src/js/exampleModule'
 
 
-import logo from '@src/img/logo.png'
+import logo from '@pub/img/logo.png'
 
 const appLogo = document.createElement('img')
 appLogo.src = logo
