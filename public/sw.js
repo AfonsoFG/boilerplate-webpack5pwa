@@ -1,4 +1,4 @@
-var cacheName = 'ttt-pwa'
+var cacheName = 'boilerplate-webpack5pwa'
 var filesToCache = [
     '/',
     '/index.html',
