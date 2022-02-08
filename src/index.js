@@ -13,17 +13,17 @@ window.onload = () => {
 }
 
 import '@src/styles/index.scss'
+import logo from '@pub/img/logo.png'
 
 import { exampleHeading, exampleParagraph } from '@src/js/exampleModule'
 
 
-import logo from '@pub/img/logo.png'
 
 const appLogo = document.createElement('img')
 appLogo.src = logo
 appLogo.alt = 'App logo'
-appLogo.width = 250
-appLogo.height = 250
+appLogo.width = 200
+appLogo.height = 200
 
 const heading = document.createElement('h1')
 heading.textContent = exampleHeading()
