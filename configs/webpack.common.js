@@ -45,9 +45,11 @@ module.exports = {
             {
                 test: /\.js$/, use: ['babel-loader']
             }, {
-                test: /\.(?:ico|gif|png|jpg|jpeg)$/i, type: 'asset/resource'
+                test: /\.(?:ico|gif|png|jpg|jpeg)$/i,
+                type: 'asset/resource'
             }, {
-                test: /\.(woff(2)?|eot|ttf|otf|svg|)$/, type: 'asset/inline'
+                test: /\.(woff(2)?|eot|ttf|otf|svg|)$/,
+                type: 'asset/inline'
             }
         ],
     },
