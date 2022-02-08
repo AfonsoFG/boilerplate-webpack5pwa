@@ -15,7 +15,7 @@ Already has everything needed to be a PWA
 
 ## How to use
 ```
- $ npm clone git@github.com:AfonsoFG/boilerplate-webpack5pwa.git
+ $ git clone git@github.com:AfonsoFG/boilerplate-webpack5pwa.git
 ```
 
 ```
